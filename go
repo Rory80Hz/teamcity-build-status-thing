@@ -18,7 +18,7 @@ function run_assembly() {
 
 function run_dev() {
 	outputBuildComment "Running dev"
-./sbt "project buildstatus-service" "run server configuration/Local/services/buildstatusServiceConfiguration.yml"
+./sbt "project buildstatus-service" "run server configuration/Local/services/myBuildstatusServiceConfiguration.yml"
 }
 
 

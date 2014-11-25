@@ -11,8 +11,15 @@ Reason for this is, that someone way more competent than me, can build a nicer U
 ### Make it so....
 
 #### Dropwizard service
-So this won't compile, because i hardcoded my basic auth connection to team city...because i am a terrible person. So fix that first...then....in the root folder just run the go shell script.
+This now compiles...NO WAI!
 
+But...to run it locally create a copy of the .yml file and call it myBuildstatusServiceConfiguration.yml in /configuration/local/services make sure you get your nice base64 encoded UserName:Password and the team city base URL.
+
+then run
+
+```
+./go
+```
 
 #### Front End
 Go to the front-end folder and type
