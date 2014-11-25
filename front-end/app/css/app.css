@@ -1,0 +1,31 @@
+/* app css stylesheet */
+
+.wrapper {
+    position: relative;
+    margin: 0 auto;
+    width: 600px;
+    height: 150px;    
+}
+.env {
+padding: 10px;
+font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+}
+.build {
+    position: absolute;
+    top: 40px;
+    left: 10px;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;         
+    font-size: xx-large;
+}
+.team {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;         
+    font-size: x-large;
+}
+.pipeline {
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;    
+    font-size: x-small;
+    color: gainsboro;
+}

@@ -1,0 +1,7 @@
+.idea/
+.idea_modules/
+buildstatus-service/target/
+project/project/target/
+project/target/
+target/
+configuration/local/services/myBuildstatusServiceConfiguration.yml

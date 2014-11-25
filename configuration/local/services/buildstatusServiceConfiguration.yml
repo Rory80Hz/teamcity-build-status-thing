@@ -1,0 +1,34 @@
+teamCityUri: http://example.com
+
+#Base64 Username and Password
+basicAuth: Basic dXNlcm5hbWU6cGFzc3dvcmQ=
+
+# Connection settings
+server:
+  type: simple
+  applicationContextPath: /
+  adminContextPath: /admin
+  connector:
+    type: http
+    port: 8088
+
+# Logging settings.
+logging:
+  level: INFO
+  loggers:
+    "uk.gov.defra": INFO
+    "org.eclipse.jetty": WARN
+    "org.apache.http": WARN
+    "com.yammer.metrics": WARN
+  appenders:
+    - type: console
+
+jerseyClient:
+  timeout: 1000ms
+  connectionTimeout: 1000ms
+  timeToLive: 1h
+  cookiesEnabled: false
+  maxConnections: 1024
+  maxConnectionsPerRoute: 1024
+  keepAlive: 0ms
+  retries: 5
